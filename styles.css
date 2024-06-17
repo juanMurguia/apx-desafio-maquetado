@@ -212,11 +212,22 @@ footer .redes{
 
     .servicios{
         height: 90dvh;
+        align-items: center;
     }
 
     .servicios .contenedor{
         flex-direction: row;
         gap: 5rem;
+        align-items: center;
+    }
+
+    .servicios .contenedor article{
+        width: 33%;
+        flex-grow: 1;
+    }
+
+    .servicios .contenedor article p{
+        width: 50%;
     }
 
     .contacto{
@@ -224,6 +235,7 @@ footer .redes{
         justify-content: center;
         align-items: start;
         height: 90dvh;
+        padding-top: 5%;
     }
 
     .contacto h2{
